@@ -14,8 +14,8 @@ function Login() {
   const authContext = useContext(AuthContext);
   const navigation = useNavigate();
   const [loginDetails, setLoginDetails] = useState({
-    email: "example2@gmail.com",
-    password: "12345678",
+    email: "",
+    password: "",
   });
   const [show, setShow] = useState(false);
   const [toast, setToast] = useState({
