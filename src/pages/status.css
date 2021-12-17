@@ -1,0 +1,26 @@
+.backArrow{
+    padding:20px;
+}
+.detailsContainer{
+    margin-right: 5%;
+    margin-left: 5%;
+    overflow-y: scroll;
+}
+.headerTitle{
+    color:#3750EB;
+    padding:10px;
+}
+
+.resultContainer{
+    width:100%;
+    height:100%;
+    overflow-x: hidden;
+    margin-bottom: 5px;
+    background-color:#F4F5F5;
+    border-bottom: 1px solid black;
+}
+.centerCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

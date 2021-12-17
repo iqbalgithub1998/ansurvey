@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+.loginImage{
+    width:552px;
+    height:500px;
+}
+.mainContainer{
+    display:flex;
+    margin-top:7%;
+
+}
+h1{
+    font-family: 'Paytone One', sans-serif;
+}
+Container{
+    max-width:0px !important;
+}
+
+.column{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginForm{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7%;
+    margin-right: 153px;
+}
+Button{
+    font-family: 'Oxanium', cursive;
+    width:95%;
+}

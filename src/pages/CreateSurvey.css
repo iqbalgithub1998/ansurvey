@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+.titleInput{
+    border: none;
+    width:100%;
+    height:50px;
+    padding: 5px;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.titleInput:enabled{
+    font-size:30px;
+    font-family: 'Nunito', sans-serif;
+}
+.mainCont{
+    width: 100%;
+    height:100%;
+    padding-top: 15px;
+
+    border: 1px solid #AEB3B7;
+}
+.nextQuestion{
+}
+.addButton{
+width:25%;
+margin:5px;
+margin-left: 15px;
+}
+.ListContainer{
+    background-color: #F4F5F5;
+    width:100%;
+    height:90px;
+    margin-bottom: 10px;
+}
+
+.question_input{
+    Width:97%;
+    height:50%;
+
+    min-height: 25px;
+    padding:10px;
+    font-size:22px;
+    font-family: 'Nunito', sans-serif;
+}
+.question_input:enabled{
+    font-size:22px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.mostly-customized-scrollbar::-webkit-scrollbar {
+    width: 2px;
+    height: 8px;
+    background-color: #aaa; /* or add it to the track */
+  }
+
+  /* Add a thumb */
+  .mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+      background: #000;
+  }

@@ -1,0 +1,85 @@
+tbody, td, tfoot, th, thead, tr {
+     border-color: #FFFF !important;
+}
+
+thead{
+    --bs-table-bg:#C4C4C4 !important;
+    color:#FFFFFF !important;
+}
+tbody{
+    --bs-table-bg: #F4F5F5 !important;
+    color:#000000 !important;
+}
+td{
+    height:75px !important;
+}
+.table-dark{
+    --bs-table-hover-bg: none !important;
+    --bs-table-hover-color:none !important;
+}
+.alignCenter{
+    font-size:22px;
+    width:100% !important;
+    height:100% !important;
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+}
+.table{
+    margin-bottom: 0 !important;
+}
+.title{
+    font-size:20px;
+    font-weight:bold;
+    color:#3750EB;
+}
+.response:hover{
+    color:#3750EB;
+    cursor:pointer;
+}
+.shareIcon:hover{
+
+    cursor:pointer;
+}
+.miniMenu{
+    padding:5px 25px 5px 25px;
+    border-bottom: 2px solid #FFFFFF;
+}
+.miniMenu:hover{
+    cursor:pointer;
+    background-color:#FFFFFF;
+    border-bottom: 2px solid #C4C4C4;
+}
+.popover-header{
+    padding: 0px !important;
+}
+
+.noListMessage{
+    background-color:#EDEEEE;
+    width: 260%;
+    height:130px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

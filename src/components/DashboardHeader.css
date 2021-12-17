@@ -1,0 +1,14 @@
+.headerCont{
+    background-color:#3750EB ;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding:5px 10px 5px 10px;
+}
+.userEmail{
+    color:#FFFFFF ;
+    font-size: 18px;
+}
+.logout:hover{
+ cursor: pointer;
+}
